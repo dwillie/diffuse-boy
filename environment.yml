@@ -1,0 +1,19 @@
+name: diffuse-boy
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10
+  - pip
+  - pytorch
+  - pip:
+    - pyboy>=1.6.14
+    - pygame
+    - opencv-contrib-python
+    - transformers
+    - accelerate
+    - diffusers
+    - numpy
+    - controlnet_aux
